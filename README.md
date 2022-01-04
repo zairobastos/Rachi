@@ -4,6 +4,8 @@
 
 ## :camera_flash: Versão Desktop da Landing Page
 ![imagem](images/FireShot%20Capture%20003%20-%20Rachi%20-%20Clone%20-%20127.0.0.1.png)
+## :camera_flash: GIF - versão desktop da Landing Page
+![gif](images/ezgif.com-gif-maker.gif)
 
 ## :hammer_and_wrench: Tecnologias utilizadas
  Foram utilizadas as segintes ferramentas no desenvolvimento:
