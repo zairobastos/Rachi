@@ -1,0 +1,38 @@
+section .app {
+  background-color: #eff8ff;
+  height: 29.688rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 9rem;
+}
+section .app div {
+  width: 38rem;
+}
+section .app div h2 {
+  line-height: 2.52rem;
+  font-size: 2rem;
+  font-family: "Sora", sans-serif;
+  color: #293145;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+section .app div p {
+  width: 27.75rem;
+  color: #6e7275;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+section .app div figure {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  gap: 1.5rem;
+}

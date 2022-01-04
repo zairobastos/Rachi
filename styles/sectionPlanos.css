@@ -1,0 +1,139 @@
+section .planos {
+  padding-top: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .planos h2 {
+  color: #293145;
+  font-size: 2.5rem;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  line-height: 3.15rem;
+  margin-bottom: 1rem;
+}
+section .planos .subtitulo {
+  width: 35.625rem;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.563rem;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 6rem;
+}
+section .planos .plano {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.875rem;
+}
+section .planos .plano div {
+  width: 23.125rem;
+  height: 29.438rem;
+  background-color: #eff8ff;
+  padding-top: 3.5rem;
+  margin-bottom: 8.125rem;
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section .planos .plano .secundario h3 {
+  font-size: 1.5rem;
+  font-family: "Sora", sans-serif;
+  color: #293145;
+  font-weight: 600;
+  line-height: 1.89rem;
+  margin-bottom: 3.688rem;
+}
+section .planos .plano .secundario .valor,
+section .planos .plano .primario .valor {
+  font-weight: 700;
+  margin-bottom: 2.938rem;
+}
+section .planos .plano .secundario .valor span,
+section .planos .plano .primario span {
+  font-size: 3.125rem;
+  line-height: 3.662rem;
+}
+section .planos .plano .secundario .valor sup,
+section .planos .plano .primario sup {
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+  position: absolute;
+  margin-top: 8px;
+  margin-left: -30px;
+}
+
+section .planos .plano .secundario .valor sub,
+section .planos .plano .primario sub {
+  font-size: 1.625rem;
+  font-weight: 1.875rem;
+  position: absolute;
+  margin-top: 1.4rem;
+  margin-left: 0px;
+}
+section .planos .plano .secundario p,
+section .planos .plano .primario p {
+  width: 18.75rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.563rem;
+  color: #6e7275;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 3.625rem;
+}
+
+section .planos .plano .secundario button,
+section .planos .plano .primario button {
+  background: #0f9afe;
+  box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+  border-radius: 50px;
+  padding: 0.5rem 5rem;
+  border: none;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.705rem;
+  color: #fff;
+}
+
+section .planos .plano .primario {
+  background-color: #293145;
+  padding-top: 0;
+  padding-top: 2rem;
+}
+section .planos .plano .primario h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Sora", sans-serif;
+  line-height: 2.52rem;
+  margin-bottom: 0.813rem;
+}
+section .planos .plano .primario h4 {
+  background-color: #0f9afe;
+
+  letter-spacing: 0.2em;
+  font-size: 0.875rem;
+  line-height: 1.063rem;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+
+  padding: 0.313rem 2rem;
+  border-radius: 0.938rem;
+  margin-bottom: 2rem;
+}
+section .planos .plano .primario p {
+  color: #dbdbdb;
+}
+section .planos .plano .primario button {
+  box-shadow: 1px 3px 10px rgba(17, 37, 56, 0.5);
+}

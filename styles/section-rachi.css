@@ -1,0 +1,40 @@
+section .rachi {
+  background-color: #eff8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40rem;
+  gap: 6rem;
+}
+
+section .rachi div {
+  width: 35.875rem;
+  height: 11.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+}
+
+section .rachi div h1 {
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  line-height: 3.78rem;
+  font-size: 3rem;
+  color: #293145;
+}
+
+section .rachi div button {
+  background: #0f9afe;
+  box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+  border-radius: 50px;
+  border: none;
+  padding: 1rem 2.25rem;
+  width: 12.5rem;
+  height: 3.5rem;
+
+  font-size: 1.25rem;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
